@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kurumsal - HBS Balık</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary": "#0f49bd",
+                "background-light": "#f6f6f8",
+                "background-dark": "#101622",
+            },
+            fontFamily: {
+                "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+    },
+}
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<div class="w-full bg-background-dark min-h-screen">
+<!-- Navbar -->
+<header class="w-full border-b border-white/10 backdrop-blur-sm px-6 py-4 lg:px-20">
+<div class="mx-auto flex max-w-7xl items-center justify-between">
+<a href="index.html" class="flex items-center gap-3">
+<img src="logo-transparent.png" alt="HBS Balık Logo" class="h-12 w-auto object-contain brightness-0 invert">
+</a>
+<div class="hidden items-center gap-10 md:flex">
+<nav class="flex gap-8">
+<a class="text-sm font-medium text-white transition-colors" href="corporate.html">Kurumsal</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="products.html">Ürünler</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="logistics.html">Lojistik</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="https://wa.me/905079583382" target="_blank">İletişim</a>
+</nav>
+<div class="h-4 w-px bg-white/20"></div>
+<div class="flex items-center gap-1 text-sm">
+<span class="font-bold text-white">TR</span>
+<span class="font-normal text-white/50">|</span>
+<a href="corporate-en.html" class="font-normal text-white/80 transition-colors hover:text-white">EN</a>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Page Content -->
+<section class="w-full bg-background-dark px-6 py-20 lg:px-20 flex items-center justify-center min-h-[80vh]">
+<div class="mx-auto max-w-4xl">
+<div class="flex flex-col items-center gap-8 text-center">
+<div class="flex size-24 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+<span class="material-symbols-outlined" style="font-size: 48px;">domain</span>
+</div>
+<h1 class="text-4xl font-black tracking-tight text-white md:text-5xl">Kurumsal</h1>
+<p class="max-w-2xl text-xl leading-relaxed text-gray-300">
+Yakında sizin için en iyi fırsatları sunmak üzere çalışıyoruz. Kurumsal çözümlerimiz ve işbirliği fırsatları hakkında detaylı bilgilendirme için bizimle iletişime geçebilirsiniz.
+</p>
+<a href="https://wa.me/905079583382" target="_blank" class="group mt-4 flex h-14 min-w-[200px] cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary px-8 text-base font-bold text-white transition-all hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-900/20 active:translate-y-0.5">
+<span>İletişime Geç</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</body></html>

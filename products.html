@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ürünlerimiz - HBS Balık</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "primary": "#0f49bd",
+                "background-light": "#f6f6f8",
+                "background-dark": "#101622",
+            },
+            fontFamily: {
+                "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+    },
+}
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<div class="w-full bg-background-dark">
+<!-- Navbar -->
+<header class="w-full border-b border-white/10 backdrop-blur-sm px-6 py-4 lg:px-20">
+<div class="mx-auto flex max-w-7xl items-center justify-between">
+<a href="index.html" class="flex items-center gap-3">
+<img src="logo-transparent.png" alt="HBS Balık Logo" class="h-12 w-auto object-contain brightness-0 invert">
+</a>
+<div class="hidden items-center gap-10 md:flex">
+<nav class="flex gap-8">
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="corporate.html">Kurumsal</a>
+<a class="text-sm font-medium text-white transition-colors" href="products.html">Ürünler</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="logistics.html">Lojistik</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="https://wa.me/905079583382" target="_blank">İletişim</a>
+</nav>
+<div class="h-4 w-px bg-white/20"></div>
+<div class="flex items-center gap-1 text-sm">
+<span class="font-bold text-white">TR</span>
+<span class="font-normal text-white/50">|</span>
+<a href="products-en.html" class="font-normal text-white/80 transition-colors hover:text-white">EN</a>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Page Content -->
+<section class="w-full bg-background-dark px-6 py-20 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<!-- Section Header -->
+<div class="mb-12 flex flex-col gap-4 text-center">
+<h1 class="text-4xl font-black tracking-tight text-white md:text-5xl">Ürünlerimiz</h1>
+<p class="mx-auto max-w-2xl text-lg text-gray-400">Somali sularından taze ve kaliteli deniz ürünleri. Geniş ürün yelpazemizle ihtiyacınız olan her türlü balık ve deniz ürününü tedarik ediyoruz.</p>
+</div>
+
+<!-- Products Grid -->
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+<!-- Midye -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Midye</h3>
+<p class="text-sm text-gray-400">Mediterranean mussel</p>
+<p class="text-xs italic text-gray-500">Mytilus galloprovincialis</p>
+</div>
+</div>
+
+<!-- Istakoz -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Istakoz</h3>
+<p class="text-sm text-gray-400">Lobster </p>
+<p class="text-xs italic text-gray-500">Panulirus spp.</p>
+</div>
+</div>
+
+<!-- Uskumru -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Uskumru</h3>
+<p class="text-sm text-gray-400">Atlantic mackerel</p>
+<p class="text-xs italic text-gray-500">Scomber scombrus (bazı pazarlarda S. japonicus)</p>
+</div>
+</div>
+
+<!-- Levrek -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Levrek</h3>
+<p class="text-sm text-gray-400">European seabass</p>
+<p class="text-xs italic text-gray-500">Dicentrarchus labrax</p>
+</div>
+</div>
+
+<!-- Bebek Kalamar -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Bebek Kalamar</h3>
+<p class="text-sm text-gray-400">Baby squid</p>
+<p class="text-xs italic text-gray-500">Loligo vulgaris</p>
+</div>
+</div>
+
+<!-- Kalamar -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Kalamar</h3>
+<p class="text-sm text-gray-400">European squid</p>
+<p class="text-xs italic text-gray-500">Loligo vulgaris</p>
+</div>
+</div>
+
+<!-- Karides -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Karides</h3>
+<p class="text-sm text-gray-400">Deep-water rose shrimp</p>
+<p class="text-xs italic text-gray-500">Parapenaeus longirostris</p>
+</div>
+</div>
+
+<!-- Jumbo Karides -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Jumbo Karides</h3>
+<p class="text-sm text-gray-400">Giant tiger prawn / Whiteleg shrimp (jumbo boy)</p>
+<p class="text-xs italic text-gray-500">Penaeus monodon / Litopenaeus vannamei</p>
+</div>
+</div>
+
+<!-- Çipura -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Çipura</h3>
+<p class="text-sm text-gray-400">Gilthead seabream</p>
+<p class="text-xs italic text-gray-500">Sparus aurata</p>
+</div>
+</div>
+
+<!-- Ahtapot -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Ahtapot</h3>
+<p class="text-sm text-gray-400">Common octopus</p>
+<p class="text-xs italic text-gray-500">Octopus vulgaris</p>
+</div>
+</div>
+
+<!-- Fener Balığı -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Fener Balığı</h3>
+<p class="text-sm text-gray-400">Anglerfish / Monkfish</p>
+<p class="text-xs italic text-gray-500">Lophius piscatorius</p>
+</div>
+</div>
+
+<!-- Dil Balığı -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Dil Balığı</h3>
+<p class="text-sm text-gray-400">Common sole</p>
+<p class="text-xs italic text-gray-500">Solea solea</p>
+</div>
+</div>
+
+<!-- İstavrit -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">İstavrit</h3>
+<p class="text-sm text-gray-400">Mediterranean horse mackerel</p>
+<p class="text-xs italic text-gray-500">Trachurus mediterraneus</p>
+</div>
+</div>
+
+<!-- Mezgit -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Mezgit</h3>
+<p class="text-sm text-gray-400">Whiting</p>
+<p class="text-xs italic text-gray-500">Merlangius merlangus</p>
+</div>
+</div>
+
+<!-- Somon -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Somon</h3>
+<p class="text-sm text-gray-400">Atlantic salmon</p>
+<p class="text-xs italic text-gray-500">Salmo salar</p>
+</div>
+</div>
+
+<!-- Kalkan -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Kalkan</h3>
+<p class="text-sm text-gray-400">Turbot</p>
+<p class="text-xs italic text-gray-500">Scophthalmus maximus</p>
+</div>
+</div>
+
+<!-- Çiroz -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Çiroz</h3>
+<p class="text-sm text-gray-400">Dried/salted mackerel (ciroz)</p>
+<p class="text-xs italic text-gray-500">Scomber spp.</p>
+</div>
+</div>
+
+<!-- Torik -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Torik</h3>
+<p class="text-sm text-gray-400">Atlantic bonito (large)</p>
+<p class="text-xs italic text-gray-500">Sarda sarda</p>
+</div>
+</div>
+
+<!-- Palamut -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Palamut</h3>
+<p class="text-sm text-gray-400">Atlantic bonito</p>
+<p class="text-xs italic text-gray-500">Sarda sarda</p>
+</div>
+</div>
+
+<!-- Hamsi -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Hamsi</h3>
+<p class="text-sm text-gray-400">European anchovy</p>
+<p class="text-xs italic text-gray-500">Engraulis encrasicolus</p>
+</div>
+</div>
+
+<!-- Sardalya -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Sardalya</h3>
+<p class="text-sm text-gray-400">European pilchard</p>
+<p class="text-xs italic text-gray-500">Sardina pilchardus</p>
+</div>
+</div>
+
+<!-- Lüfer -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Lüfer</h3>
+<p class="text-sm text-gray-400">Bluefish</p>
+<p class="text-xs italic text-gray-500">Pomatomus saltatrix</p>
+</div>
+</div>
+
+<!-- Barbun -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Barbun</h3>
+<p class="text-sm text-gray-400">Red mullet</p>
+<p class="text-xs italic text-gray-500">Mullus barbatus</p>
+</div>
+</div>
+
+<!-- Tekir -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Tekir</h3>
+<p class="text-sm text-gray-400">Surmullet / Striped red mullet</p>
+<p class="text-xs italic text-gray-500">Mullus surmuletus</p>
+</div>
+</div>
+
+<!-- Kefal -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Kefal</h3>
+<p class="text-sm text-gray-400">Grey mullet</p>
+<p class="text-xs italic text-gray-500">Mugil cephalus (Mugilidae spp. olarak da geçer)</p>
+</div>
+</div>
+
+<!-- Alabalık -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Alabalık</h3>
+<p class="text-sm text-gray-400">Rainbow trout</p>
+<p class="text-xs italic text-gray-500">Oncorhynchus mykiss</p>
+</div>
+</div>
+
+<!-- Sazan -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Sazan</h3>
+<p class="text-sm text-gray-400">Common carp</p>
+<p class="text-xs italic text-gray-500">Cyprinus carpio</p>
+</div>
+</div>
+
+<!-- Zargana -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Zargana</h3>
+<p class="text-sm text-gray-400">Garpike</p>
+<p class="text-xs italic text-gray-500">Belone belone</p>
+</div>
+</div>
+
+<!-- İskorpit -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">İskorpit</h3>
+<p class="text-sm text-gray-400">Red scorpionfish</p>
+<p class="text-xs italic text-gray-500">Scorpaena scrofa</p>
+</div>
+</div>
+
+<!-- Trança -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Trança</h3>
+<p class="text-sm text-gray-400">Pink dentex</p>
+<p class="text-xs italic text-gray-500">Dentex gibbosus</p>
+</div>
+</div>
+
+<!-- Sinarit -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Sinarit</h3>
+<p class="text-sm text-gray-400">Common dentex</p>
+<p class="text-xs italic text-gray-500">Dentex dentex</p>
+</div>
+</div>
+
+<!-- Mercan -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Mercan</h3>
+<p class="text-sm text-gray-400">Common pandora</p>
+<p class="text-xs italic text-gray-500">Pagellus erythrinus</p>
+</div>
+</div>
+
+<!-- Lagos / Grida -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Lagos / Grida</h3>
+<p class="text-sm text-gray-400">White grouper</p>
+<p class="text-xs italic text-gray-500">Epinephelus aeneus</p>
+</div>
+</div>
+
+<!-- Orkinos / Ton balığı (konserve/işlenmiş tüketimde çok yaygın) -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Orkinos / Ton balığı (konserve/işlenmiş tüketimde çok yaygın)</h3>
+<p class="text-sm text-gray-400">Tuna (common canned species)</p>
+<p class="text-xs italic text-gray-500">Katsuwonus pelamis / Thunnus albacares / Thunnus alalunga</p>
+</div>
+</div>
+
+<!-- Mavi yengeç  -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Mavi yengeç </h3>
+<p class="text-sm text-gray-400">Blue crab</p>
+<p class="text-xs italic text-gray-500">Callinectes sapidus</p>
+</div>
+</div>
+
+<!-- Pavurya / Kaya yengeci  -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Pavurya / Kaya yengeci </h3>
+<p class="text-sm text-gray-400">Warty crab (Stone crab)</p>
+<p class="text-xs italic text-gray-500">Eriphia verrucosa</p>
+</div>
+</div>
+
+<!-- Çağanoz / Çingene yengeci  -->
+<div class="group relative overflow-hidden rounded-lg border border-white/5 bg-[#1c1f27] p-5 transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Çağanoz / Çingene yengeci </h3>
+<p class="text-sm text-gray-400">Mediterranean shore crab</p>
+<p class="text-xs italic text-gray-500">Carcinus aestuarii</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</body></html>
