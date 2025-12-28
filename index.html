@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HBS Balık - Okyanus Balıkları Tedariki</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Background Image Wrapper for the entire Hero Viewport -->
+<div class="absolute inset-0 z-0 h-[85vh] w-full bg-cover bg-center grayscale brightness-50" data-alt="Dark moody ocean waves rolling in the deep sea" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAodC4isFKlkL9hTukBz_vjH7siVhdJIqQVASQJrP0LUi7TEcAYLQVWtzxYerSuW6HsNoMaeV0omImCCLOkr4B1aR41ztcj1DAA5O0YVwiERgI18ZfvCilJjPRBwQ14WrkaFnCeSuXef7SBgofQ79zAlHcSJTxg2eKbxghdcp-aCERJF1X2qVCyHraelH1diZZa4UkSBruRm5sI017_5G56dLyp0e9myeujfVkZobjuwzACkpySD8YcP1KnLQR-6o6wrBxAEzgCDRKa");'>
+</div>
+<div class="absolute inset-0 z-0 h-[85vh] bg-gradient-to-b from-black/60 via-transparent to-background-dark"></div>
+<div class="layout-container relative z-10 flex h-full grow flex-col">
+<!-- Navbar -->
+<header class="w-full border-b border-white/10 backdrop-blur-sm px-6 py-4 lg:px-20">
+<div class="mx-auto flex max-w-7xl items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex size-10 items-center justify-center rounded-lg bg-white/10 text-white backdrop-blur-md">
+<span class="material-symbols-outlined text-2xl">sailing</span>
+</div>
+<h2 class="text-xl font-black tracking-tight text-white">HBS Balık</h2>
+</div>
+<div class="hidden items-center gap-10 md:flex">
+<nav class="flex gap-8">
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="#">Kurumsal</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="#">Ürünler</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="#">Lojistik</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="#">İletişim</a>
+</nav>
+<div class="h-4 w-px bg-white/20"></div>
+<button class="flex items-center gap-1 text-sm font-bold text-white transition-colors hover:text-primary-300">
+                            TR <span class="font-normal text-white/50">| EN</span>
+</button>
+</div>
+<div class="flex md:hidden">
+<button class="text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Content -->
+<main class="flex flex-1 flex-col justify-center px-6 py-20 lg:px-20">
+<div class="mx-auto flex max-w-7xl flex-1 flex-col justify-center">
+<div class="flex max-w-[800px] flex-col gap-8">
+<div class="flex flex-col gap-4">
+<span class="inline-flex w-fit items-center rounded-full bg-primary/20 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-200 backdrop-blur-sm ring-1 ring-primary/50">
+                                Global Seafood Supply
+                            </span>
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight text-white sm:text-6xl md:text-7xl">
+                                Okyanus Balıkları <br/> Tedariki
+                            </h1>
+<p class="max-w-xl text-lg font-light leading-relaxed text-gray-300 sm:text-xl">
+                                Somali’den Türkiye’ye. Restoranlar ve balıkçılar için güvenilir, sürdürülebilir ve kesintisiz tedarik zinciri.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4 pt-2">
+<button class="group flex h-14 min-w-[160px] cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary px-8 text-base font-bold text-white transition-all hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-900/20 active:translate-y-0.5">
+<span>İletişime Geç</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<button class="flex h-14 min-w-[160px] cursor-pointer items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/5 px-8 text-base font-bold text-white backdrop-blur-sm transition-all hover:bg-white/10 active:translate-y-0.5">
+<span>Ürünleri Sor</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Feature Section (Trust Indicators) - Positioned to bridge the hero and potential content below -->
+<div class="w-full bg-background-dark px-6 pb-20 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<div class="grid grid-cols-1 gap-6 pt-10 md:grid-cols-3 md:gap-8 lg:-mt-16 lg:pt-0">
+<!-- Feature 1 -->
+<div class="group relative flex flex-col gap-4 overflow-hidden rounded-xl border border-white/5 bg-[#1c1f27] p-8 shadow-2xl transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="absolute -right-4 -top-4 size-24 rounded-full bg-primary/5 blur-2xl transition-all group-hover:bg-primary/10"></div>
+<div class="flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined" style="font-size: 28px;">local_shipping</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Taze Lojistik</h3>
+<p class="text-sm font-normal leading-relaxed text-gray-400">Somali'den direkt hava kargo ile hızlı sevkiyat ve soğuk zincir takibi.</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="group relative flex flex-col gap-4 overflow-hidden rounded-xl border border-white/5 bg-[#1c1f27] p-8 shadow-2xl transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="absolute -right-4 -top-4 size-24 rounded-full bg-primary/5 blur-2xl transition-all group-hover:bg-primary/10"></div>
+<div class="flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined" style="font-size: 28px;">eco</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Sürdürülebilir Kaynaklar</h3>
+<p class="text-sm font-normal leading-relaxed text-gray-400">Doğaya saygılı, sertifikalı avcılık yöntemleri ile gelecek nesilleri düşünüyoruz.</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="group relative flex flex-col gap-4 overflow-hidden rounded-xl border border-white/5 bg-[#1c1f27] p-8 shadow-2xl transition-all hover:border-primary/30 hover:bg-[#222630]">
+<div class="absolute -right-4 -top-4 size-24 rounded-full bg-primary/5 blur-2xl transition-all group-hover:bg-primary/10"></div>
+<div class="flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined" style="font-size: 28px;">domain</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-white">Kurumsal Çözüm</h3>
+<p class="text-sm font-normal leading-relaxed text-gray-400">Restoran zincirleri ve toptancılar için kesintisiz ve garantili stok yönetimi.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
